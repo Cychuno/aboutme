@@ -12,35 +12,45 @@
 			font-size: 36px;
 			color: #55ff55; }
 	</style>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
 </head>
 <body>
 	<nav>
-		<li>關於我</li>
-		<li>珍藏書籤</li>
-		<li>推薦影片</li>
+		<ul>
+			<li><a href="#aboutme">關於我</a></li>
+			<li><a href="#bookmark">珍藏書籤</a></li>
+			<li><a href="#youtube">推薦影片</a></li>
+		</ul>
 	</nav>
+<main class="container-fluid bg-dark text-white text-center">
 
 <main>
 	<nav>
 		卓怡君(Yi-Chun Cho)
 	</nav>
+<img src="images.jpg" alt="照片">
+<br><br><br>
 
-	<session>
+<div class="row">
+	<session id="aboutme" class="col-lg-4">		
 		<header>關於我</header>
-		<h1>台南新化人，畢業於台南市立新化高中，目前就讀台中靜宜大學</h1>
-		<h2>E-MAIN:<a href="mailto:s1090351@gm.pu.edu.tw">s1090351@gm.pu.edu.tw</a></h2>
+		<h3>職位:台中靜宜大學學生</h3>
+		<h3>經歷:台南新化高中</h3>
+		<h3>E-MAIN: <a href="mailto:s1090351@gm.pu.edu.tw">s1090351@gm.pu.edu.tw</a></h3>
 
 	</session>
 
-	<article>
+	<article id="bookmark" class="col-lg-4">
 		<header>珍藏書籤</header>
-		<h3>人人平等</h3>
+		<h3>...</h3>
 	</article>
 
-	<aside>
+	<aside id="youtube" class="col-lg-4">
 		<header>推薦影片</header>
 		<h3>當男人戀愛時<a href="https://zh.wikipedia.org/wiki/%E7%95%B6%E7%94%B7%E4%BA%BA%E6%88%80%E6%84%9B%E6%99%82_(%E9%9B%BB%E5%BD%B1)">https://zh.wikipedia.org/wiki/%E7%95%B6%E7%94%B7%E4%BA%BA%E6%88%80%E6%84%9B%E6%99%82_(%E9%9B%BB%E5%BD%B1)</a></h3>
 	</aside>
+	</div></div></div>
 </body>
 </html>
